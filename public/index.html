@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeCare Staffing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar glass">
+    <div class="container nav-wrap">
+      <a class="brand" href="#">LifeCare Staffing</a>
+      <nav id="nav"></nav>
+      <a class="btn primary" id="applyBtn" href="#contact">Apply Now</a>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div id="heroSlides" class="hero-slides"></div>
+    <div class="hero-overlay"></div>
+    <div class="floating-orbs" aria-hidden="true"><span class="orb orb1"></span><span class="orb orb2"></span><span class="orb orb3"></span></div>
+    <div class="hero-content container fade-up">
+      <p class="eyebrow" id="heroEyebrow"></p>
+      <h1 id="heroTitle"></h1>
+      <p id="heroDescription"></p>
+      <div class="actions"><a id="heroPrimary" class="btn primary"></a><a id="heroSecondary" class="btn ghost"></a></div>
+    </div>
+    <button id="prevSlide" class="carousel-btn prev">‹</button>
+    <button id="nextSlide" class="carousel-btn next">›</button>
+  </section>
+
+  <section class="trust-strip"><div class="container"><div class="trust-marquee" id="trustMarquee"></div></div></section>
+  <section class="stats section"><div class="container stats-grid" id="statsGrid"></div></section>
+
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-head center fade-up"><p class="eyebrow">What We Offer</p><h2>High-impact staffing services built for modern care</h2></div>
+      <div class="grid4" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container two-col">
+      <div class="fade-up"><p class="eyebrow" id="aboutEyebrow"></p><h2 id="aboutTitle"></h2><p id="aboutDescription"></p><div id="lottie" class="lottie-box"></div><p class="muted" id="lottieCaption"></p></div>
+      <img id="aboutImage" alt="Healthcare professionals" class="fade-up" />
+    </div>
+  </section>
+
+  <section class="section leadership" id="leadership">
+    <div class="container center fade-up"><p class="eyebrow" id="leadEyebrow"></p><h2 id="leadTitle"></h2><p id="leadSubtitle" class="muted"></p></div>
+    <div class="container leader-timeline" id="leadersTimeline"></div>
+  </section>
+
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-head center fade-up"><p class="eyebrow">Client Feedback</p><h2>Trusted by hospitals, clinics, and care teams</h2></div>
+      <div class="testimonial-card fade-up"><p class="quote" id="testimonialQuote"></p><div class="author"><strong id="testimonialName"></strong><span id="testimonialRole" class="muted"></span></div></div>
+    </div>
+  </section>
+
+  <section class="section jobs" id="jobs">
+    <div class="container two-col">
+      <div class="fade-up"><p class="eyebrow" id="jobsEyebrow"></p><h2 id="jobsTitle"></h2><p id="jobsDescription"></p><div id="jobTags" class="tags"></div><a id="jobsCta" class="btn primary"></a></div>
+      <img id="jobsImage" alt="Hospital exterior" class="fade-up" />
+    </div>
+  </section>
+
+  <section class="section job-board" id="job-board">
+    <div class="container">
+      <div class="section-head fade-up"><p class="eyebrow">Candidate Portal</p><h2 id="jobsBoardTitle"></h2><p id="jobsBoardDescription" class="muted"></p></div>
+      <div class="filters fade-up">
+        <select id="filterSpecialty"></select>
+        <select id="filterLocation"></select>
+        <select id="filterType"></select>
+      </div>
+      <div id="jobBoardList" class="job-list"></div>
+    </div>
+  </section>
+
+  <section class="section employer" id="employer">
+    <div class="container two-col">
+      <div class="fade-up"><p class="eyebrow">Employer Portal</p><h2 id="employerTitle"></h2><p id="employerDescription" class="muted"></p></div>
+      <form class="card fade-up" id="employerForm">
+        <input name="facility" placeholder="Facility name" required />
+        <input name="contactName" placeholder="Contact person" required />
+        <input name="email" type="email" placeholder="Work email" required />
+        <input name="roleNeeded" placeholder="Role needed (e.g. ICU RN)" required />
+        <textarea name="notes" placeholder="Shift needs / timeline" rows="4"></textarea>
+        <button class="btn primary" type="submit">Request Clinicians</button>
+        <p id="employerMsg" class="muted"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="section faq" id="faq">
+    <div class="container">
+      <div class="section-head center fade-up"><p class="eyebrow">Need Answers?</p><h2 id="faqTitle"></h2></div>
+      <div id="faqList" class="faq-list"></div>
+    </div>
+  </section>
+
+  <section class="cta-band section"><div class="container cta-flex fade-up"><div><h3 id="ctaTitle"></h3><p id="ctaDescription"></p></div><a id="ctaButton" class="btn ghost"></a></div></section>
+
+  <footer class="section" id="contact">
+    <div class="container footer-grid">
+      <div><h4 id="companyName"></h4><p id="tagline"></p></div>
+      <div><h5>Contact</h5><p id="contactPhone"></p><p id="contactEmail"></p></div>
+      <div><h5>Office</h5><p id="contactOffice1"></p><p id="contactOffice2"></p></div>
+    </div>
+  </footer>
+
+  <div class="chat-widget" id="chatWidget">
+    <button class="chat-toggle" id="chatToggle">💬</button>
+    <div class="chat-panel hidden" id="chatPanel">
+      <div class="chat-header"><strong id="chatTitle">Live Support</strong></div>
+      <div class="chat-body" id="chatBody"></div>
+      <div class="chat-quick" id="chatQuick"></div>
+      <form id="chatForm" class="chat-form"><input id="chatInput" placeholder="Type your message..." /><button class="btn primary" type="submit">Send</button></form>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="applyModal">
+    <div class="modal-card">
+      <button id="closeApply" class="close-modal">✕</button>
+      <h3>Apply for Position</h3>
+      <form id="applyForm" class="modal-form">
+        <input name="jobId" id="applyJobId" readonly />
+        <input name="name" placeholder="Full name" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <input name="phone" placeholder="Phone" required />
+        <input name="specialty" placeholder="Specialty" required />
+        <button class="btn primary" type="submit">Submit Application</button>
+        <p id="applyMsg" class="muted"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
