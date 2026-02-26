@@ -1,0 +1,287 @@
+{
+  "settings": {
+    "companyName": "LifeCare Staffing",
+    "tagline": "Nurse-Founded & Led healthcare workforce solutions.",
+    "showAdminLink": true,
+    "applyButtonText": "Apply Now"
+  },
+  "navigation": [
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Services",
+      "href": "#services"
+    },
+    {
+      "label": "Jobs",
+      "href": "#jobs"
+    },
+    {
+      "label": "Leadership",
+      "href": "#leadership"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Nurse-Founded & Led",
+    "title": "Your Trusted Partner in Healthcare Staffing",
+    "description": "We connect top clinicians with meaningful opportunities while helping hospitals, clinics, and long-term care facilities fill critical workforce needs.",
+    "primaryCtaLabel": "Search Jobs",
+    "secondaryCtaLabel": "Employer Solutions",
+    "primaryCtaHref": "#jobs",
+    "secondaryCtaHref": "#services",
+    "slides": [
+      {
+        "title": "Compassionate Care Teams",
+        "subtitle": "Skilled nurses and allied professionals ready to support your facility.",
+        "image": "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=1600&q=80"
+      },
+      {
+        "title": "Reliable Staffing Coverage",
+        "subtitle": "Fast placements for travel, per diem, and permanent roles.",
+        "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1600&q=80"
+      },
+      {
+        "title": "Modern Workforce Solutions",
+        "subtitle": "Credentialing, scheduling, and onboarding support for better outcomes.",
+        "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1600&q=80"
+      }
+    ]
+  },
+  "services": [
+    {
+      "title": "Travel Nursing",
+      "description": "Flexible assignments nationwide for RNs, LPNs, and allied professionals."
+    },
+    {
+      "title": "Per Diem Staffing",
+      "description": "On-demand shifts for healthcare teams that need immediate coverage."
+    },
+    {
+      "title": "Permanent Placement",
+      "description": "Strategic hiring support to build resilient, high-performing care teams."
+    },
+    {
+      "title": "Workforce Technology",
+      "description": "Scheduling, credential tracking, and onboarding solutions in one place."
+    }
+  ],
+  "about": {
+    "eyebrow": "About LifeCare Staffing",
+    "title": "Compassion-Driven Staffing for Better Patient Outcomes",
+    "description": "LifeCare Staffing is a nurse-founded organization committed to ethical staffing, clinician wellbeing, and better patient outcomes.",
+    "image": "https://images.unsplash.com/photo-1666214280391-8ff5bd3c0bf1?auto=format&fit=crop&w=1000&q=80"
+  },
+  "leadership": {
+    "eyebrow": "Leadership Team",
+    "title": "Nurse-Founded & Led",
+    "subtitle": "Leadership photos and bios are managed from the admin panel.",
+    "leaders": [
+      {
+        "name": "Anthony Kokutse",
+        "title": "Founder - Nurse-Founded & Led",
+        "bio": "Anthony brings frontline healthcare insight and people-first leadership to LifeCare Staffing.",
+        "linkedin": "https://www.linkedin.com",
+        "photo": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=500&q=80"
+      },
+      {
+        "name": "Nirbhay S Pathhak",
+        "title": "Co-Founder",
+        "bio": "Nirbhay supports operational excellence and strategic growth across healthcare markets.",
+        "linkedin": "https://www.linkedin.com",
+        "photo": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=500&q=80"
+      },
+      {
+        "name": "Sam Parker",
+        "title": "Co-Founder",
+        "bio": "Sam helps shape client and clinician partnerships for long-term success.",
+        "linkedin": "https://www.linkedin.com",
+        "photo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=500&q=80"
+      }
+    ]
+  },
+  "jobs": {
+    "eyebrow": "Find Your Next Role",
+    "title": "Healthcare Job Opportunities",
+    "description": "Explore contract, travel, per diem, and full-time roles tailored to your specialty and career goals.",
+    "tags": [
+      "Registered Nurse",
+      "ICU / ER",
+      "Allied Health",
+      "Home Health",
+      "Long-Term Care"
+    ],
+    "ctaLabel": "Browse Open Positions",
+    "ctaHref": "#contact",
+    "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=1000&q=80"
+  },
+  "cta": {
+    "title": "Need Staffing Support Fast?",
+    "description": "Partner with LifeCare Staffing for rapid placements, consistent quality, and dedicated account management.",
+    "buttonLabel": "Request Talent",
+    "buttonHref": "#contact"
+  },
+  "contact": {
+    "phone": "+1 (800) 555-0123",
+    "email": "hello@lifecarestaffing.com",
+    "officeLine1": "123 Wellness Avenue",
+    "officeLine2": "Dallas, TX 75201"
+  },
+  "lottie": {
+    "url": "https://assets3.lottiefiles.com/packages/lf20_touohxv0.json",
+    "caption": "Clinician placement workflow in motion"
+  },
+  "chat": {
+    "title": "LifeCare Live Support",
+    "welcomeMessage": "Hi! I'm your staffing assistant. Ask about jobs, hiring support, or credentialing.",
+    "placeholder": "Type your message...",
+    "quickReplies": [
+      "Open nursing jobs",
+      "Need staff urgently",
+      "Credentialing process"
+    ],
+    "offlineEmail": "support@lifecarestaffing.com",
+    "qualification": {
+      "enabled": true,
+      "fields": [
+        "name",
+        "email",
+        "role",
+        "location",
+        "urgency"
+      ]
+    }
+  },
+  "stats": [
+    {
+      "value": "3,500+",
+      "label": "Clinicians placed"
+    },
+    {
+      "value": "48 hrs",
+      "label": "Average urgent fill window"
+    },
+    {
+      "value": "97%",
+      "label": "Client retention rate"
+    },
+    {
+      "value": "24/7",
+      "label": "Coordinator support"
+    }
+  ],
+  "trustLogos": [
+    "Joint Commission\u2013aligned workflows",
+    "HIPAA-conscious staffing operations",
+    "Multi-state credentialing expertise",
+    "Hospital & clinic network partnerships",
+    "Nurse-led leadership and governance"
+  ],
+  "testimonials": [
+    {
+      "quote": "LifeCare consistently sends clinically strong professionals who fit our culture from day one.",
+      "name": "Director of Nursing",
+      "role": "Regional Medical Center"
+    },
+    {
+      "quote": "Their response speed during staffing surges has been exceptional\u2014reliable, transparent, and proactive.",
+      "name": "Workforce Operations Lead",
+      "role": "Acute Care Hospital Group"
+    },
+    {
+      "quote": "Credentialing support and communication are top-tier. Our managers trust every handoff.",
+      "name": "VP, Clinical Services",
+      "role": "Specialty Care Network"
+    }
+  ],
+  "jobsBoard": {
+    "title": "Live Job Board",
+    "description": "Filter current openings by specialty, state, and employment type.",
+    "locations": [
+      "Texas",
+      "California",
+      "New York",
+      "Florida",
+      "Remote"
+    ],
+    "types": [
+      "Travel",
+      "Per Diem",
+      "Permanent",
+      "Contract"
+    ],
+    "jobs": [
+      {
+        "id": "RN-ICU-TX-001",
+        "title": "ICU Registered Nurse",
+        "specialty": "ICU / ER",
+        "location": "Texas",
+        "type": "Travel",
+        "pay": "$2,450/week"
+      },
+      {
+        "id": "LPN-LTC-FL-014",
+        "title": "LPN - Long-Term Care",
+        "specialty": "Long-Term Care",
+        "location": "Florida",
+        "type": "Per Diem",
+        "pay": "$42/hr"
+      },
+      {
+        "id": "PT-HH-CA-011",
+        "title": "Physical Therapist",
+        "specialty": "Home Health",
+        "location": "California",
+        "type": "Contract",
+        "pay": "$68/hr"
+      },
+      {
+        "id": "RN-MEDSURG-NY-004",
+        "title": "Med-Surg RN",
+        "specialty": "Registered Nurse",
+        "location": "New York",
+        "type": "Permanent",
+        "pay": "$96,000/year"
+      },
+      {
+        "id": "TECH-ALLIED-REM-031",
+        "title": "Allied Lab Technician",
+        "specialty": "Allied Health",
+        "location": "Remote",
+        "type": "Contract",
+        "pay": "$48/hr"
+      }
+    ]
+  },
+  "employerForm": {
+    "title": "Request Clinicians",
+    "description": "Tell us your staffing need and our team will reach out quickly.",
+    "successMessage": "Thanks! Your staffing request has been received."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How quickly can you fill urgent shifts?",
+        "a": "For urgent requirements, our team can often provide qualified options within 24\u201348 hours based on role and location."
+      },
+      {
+        "q": "Do you support credentialing and compliance?",
+        "a": "Yes. We assist with license checks, credential tracking, and onboarding documentation workflows."
+      },
+      {
+        "q": "Can clinicians choose travel or permanent opportunities?",
+        "a": "Absolutely. We support travel, per diem, contract, and permanent placements."
+      },
+      {
+        "q": "How do employers submit a request?",
+        "a": "Use the Request Clinicians form on the website or contact our staffing desk directly by phone/email."
+      }
+    ]
+  }
+}

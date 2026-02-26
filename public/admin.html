@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Panel - LifeCare Staffing</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="admin-bg">
+  <main class="container admin-wrap">
+    <h1>Admin Panel</h1>
+    <p class="muted">All frontend fields are editable below. No JSON editing required.</p>
+
+    <section class="card" id="loginCard">
+      <h2>Login</h2>
+      <input id="password" type="password" placeholder="Enter admin password" />
+      <button id="loginBtn" class="btn primary">Login</button>
+      <p class="muted">Default password: <strong>admin1234</strong> (change with ADMIN_PASSWORD env var).</p>
+      <p id="loginMsg"></p>
+    </section>
+
+    <section class="card hidden" id="editorCard">
+      <h2>Website Field Editor</h2>
+      <p class="muted">Edit values and click Save Changes. For image/photo fields you can paste a LinkedIn image URL or upload directly from your device.</p>
+      <form id="editorForm" class="admin-grid"></form>
+      <button id="saveBtn" class="btn primary">Save Changes</button>
+      <p id="saveMsg"></p>
+    </section>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>
